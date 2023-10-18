@@ -63,7 +63,7 @@ process.on("SIGTERM", () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://whatsapp-chi-steel.vercel.app",
+    origin: "https://whatsapp-vivek.vercel.app",
   },
 });
 
