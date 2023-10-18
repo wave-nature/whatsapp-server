@@ -69,7 +69,6 @@ export function generateToken04(
       errorMessage: "userId invalid",
     };
   }
-  console.log(secret.length, "secret length");
   if (!secret || typeof secret !== "string" || secret.length !== 32) {
     // Check if secret is valid
     throw {

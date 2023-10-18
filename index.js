@@ -64,6 +64,7 @@ process.on("SIGTERM", () => {
 const io = new Server(server, {
   cors: {
     origin: "https://whatsapp-vivek.vercel.app",
+    // origin: "http://localhost:3000",
   },
 });
 
